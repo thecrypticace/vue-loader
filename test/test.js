@@ -31,10 +31,7 @@ const globalConfig = {
         loader: loaderPath
       }
     ]
-  },
-  plugins: [
-    new webpack.optimize.ModuleConcatenationPlugin()
-  ]
+  }
 }
 
 function genId (file) {
